@@ -285,6 +285,7 @@
         if (this.strengthMeterOnly) {
           this.emitValue('input', newValue)
         }
+        this.password = newValue || ''
       },
       passwordStrength (score) {
         this.$emit('score', score)

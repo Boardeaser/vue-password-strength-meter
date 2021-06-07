@@ -1,16 +1,16 @@
 {
   "name": "vue-password-strength-meter",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "Interactive password strength meter based on zxcvbn",
   "author": "Jakub Juszczak <jakub@posteo.de>",
   "private": false,
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:apertureless/vue-password-strength-meter.git"
+    "url": "git+ssh://git@github.com:boardeaser/vue-password-strength-meter.git"
   },
   "bugs": {
-    "url": "https://github.com/apertureless/vue-password-strength-meter/issues"
+    "url": "https://github.com/boardeaser/vue-password-strength-meter/issues"
   },
   "keywords": [
     "vue.js",
