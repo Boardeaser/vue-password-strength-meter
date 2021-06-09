@@ -26,7 +26,6 @@
     "play:build": "vue-play build",
     "dev": "node build/dev-server.js",
     "build": "npm run release",
-    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "lint": "eslint --ext .js,.vue src test/unit/specs",
     "prepublish": "npm run lint && npm run build",
     "release": "cross-env NODE_ENV=production webpack --progress --hide-modules --config  ./build/webpack.release.js && cross-env NODE_ENV=production webpack --progress --hide-modules --config  ./build/webpack.release.min.js"
@@ -48,8 +47,6 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.24.1",
-    "chai": "^3.5.0",
-    "chalk": "^1.1.3",
     "connect-history-api-fallback": "^1.1.0",
     "cross-env": "^3.2.4",
     "css-loader": "^0.28.0",
@@ -70,25 +67,13 @@
     "http-proxy-middleware": "^0.17.4",
     "inject-loader": "^3.0.0",
     "json-loader": "^0.5.4",
-    "karma": "^1.5.0",
-    "karma-coverage": "^1.1.1",
-    "karma-mocha": "^1.2.0",
-    "karma-phantomjs-launcher": "^1.0.4",
-    "karma-sinon-chai": "^1.2.0",
-    "karma-sourcemap-loader": "^0.3.7",
-    "karma-spec-reporter": "^0.0.30",
-    "karma-webpack": "^2.0.3",
     "lolex": "^1.6.0",
-    "mocha": "^3.1.0",
     "node-sass": "^4.11.0",
     "opn": "^4.0.2",
     "ora": "^1.2.0",
-    "phantomjs-prebuilt": "^2.1.3",
     "sass-loader": "^6.0.7",
     "semver": "^5.3.0",
     "shelljs": "^0.7.7",
-    "sinon": "^2.1.0",
-    "sinon-chai": "^2.9.0",
     "url-loader": "^0.5.8",
     "vue": "^2.6.9",
     "vue-loader": "^12.1.0",
@@ -116,7 +101,6 @@
   },
   "homepage": "https://github.com/boardeaser/vue-password-strength-meter#readme",
   "directories": {
-    "doc": "docs",
-    "test": "test"
+    "doc": "docs"
   }
 }
